@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="/index.css">
+    
+</head>
+<body>
+    <script defer src="/index.js"></script>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+    <header>
+        <div>
+            <h1 class="welcome">welcome!</h1>
+            <br>
+            <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="/about" id="about">About</a></li>
+                <li><a href="/contact" id="contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <br><br><br><br><br>
+    <main>       
+        <div class="outer">
+
+            <h3>upload the file below</h3>
+            <br><br>
+            <label for="img">Image=></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="file" id="img" name="img" required />
+            <label for="img" id="uploadImage">uploadImage</label>
+            <div id="selectedFile"></div>
+           <br><br>
+            <p class="err">The file should be in following patterns only: 'png/jpeg/jpg'</p>
+            <br><br> 
+            <input type="submit" class="btn" value="submit" />
+        </div>
+    </main>
+    </form>
+</body>
+</html>

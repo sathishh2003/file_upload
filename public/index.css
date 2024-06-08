@@ -1,0 +1,107 @@
+*{
+    margin:0rem;
+    padding:0;
+    scroll-behavior: smooth;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    /* font-size: 1.2rem; */
+    
+}
+:root{
+    --FONTCOLOR1:whitesmoke;
+    /* --BACKGROUNDCOLOR:rgb(255, 255, 73); */
+}
+body{
+    background-image: url('./abstract-background-illustration-wallpaper-with-blue-light-color-blue-grid-mosaic-background-creative-design-templates-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+ul{
+    display: flex;
+    gap: 3rem;
+    /* justify-content: flex-end; */
+   /*  margin-top: -20px;  */
+   margin-top: 2rem;
+   justify-content: center;
+   align-items: center;
+    list-style-type: none;
+    /* align-items: flex-end; */
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 10px gray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul li {
+    font-size: 2rem;
+}
+li a:link {
+    text-decoration: none;        
+}
+a:hover{
+    text-shadow: 2px 2px 10px black;
+}
+#about:active,#contact:active{
+    color:rgb(168, 201, 216);
+    text-shadow: none;
+}
+.welcome{
+    margin-top: 20px;
+    font-size: 3rem;
+    background-color: rgb(255, 255, 255,0.4);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    margin-left: 9.5rem;
+    width:6rem; 
+    font-size: 1.2rem;
+    background-color: transparent;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    /* box-shadow: 2px 2px 10px gray; */
+}
+.btn:hover{
+    box-shadow: 2px 2px 10px gray;
+}
+.btn:active{
+    color:rgba(0, 0, 0, 0.504);
+    border:none;
+    box-shadow: none;
+}
+.outer{
+    border:2px solid rgb(106, 106, 106);    
+    padding: 2rem;
+}
+h3{
+    text-decoration: underline;
+}
+
+ #home{
+    text-decoration: underline;
+    text-shadow: none; 
+    cursor:default;
+} 
+#img{
+    color:red;
+}
+
+
+
+#img{
+    display: none;
+}
+#selectedFile{
+        margin-left: 2rem;
+        margin-top: 1rem;
+}
+#uploadImage{
+    display: inline-block;
+    cursor: pointer;
+}
